@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern App - Training, Internships & Jobs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo" onclick="showPage('home')">
+    <img src="assets/image/logo.png" alt="Intern App" style="height: 40px;">
+</div>
+
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <div class="hero">
+                <h1>Welcome to Intern App</h1>
+                <p>Your gateway to professional growth through training, internships, and career opportunities</p>
+                <a href="#services" class="cta-button">Explore Opportunities</a>
+            </div>
+
+            <div id="services" class="services">
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Training Programs</h3>
+                    <p>Comprehensive skill development programs designed to enhance your professional capabilities. Our expert-led training sessions cover industry-relevant topics including technical skills, soft skills, and emerging technologies. Get certified and boost your career prospects with our structured learning paths.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Internship Opportunities</h3>
+                    <p>Connect with top companies offering meaningful internship experiences. We partner with leading organizations to provide hands-on learning opportunities that bridge the gap between academic knowledge and real-world application. Build your network and gain valuable industry experience.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Job Placement</h3>
+                    <p>Find your dream job through our extensive network of employer partners. Our job placement services include resume optimization, interview preparation, and personalized career guidance. We match your skills and aspirations with the right opportunities in your field.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <h2>About Intern App</h2>
+            <p>Intern App is a comprehensive platform dedicated to bridging the gap between education and employment. Founded with the vision of empowering young professionals, we provide a seamless ecosystem for career development.</p>
+
+            <h3>Our Mission</h3>
+            <p>To create meaningful connections between talented individuals and forward-thinking organizations, fostering growth and innovation in the professional landscape.</p>
+
+            <h3>Our Vision</h3>
+            <p>To be the leading platform that transforms careers by providing world-class training, internships, and job opportunities to aspiring professionals worldwide.</p>
+
+            <h3>What We Offer</h3>
+            <p>Our platform combines cutting-edge technology with personalized career guidance to deliver exceptional experiences. From skill assessment to job placement, we support you throughout your professional journey.</p>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <h2>Contact Us</h2>
+            <p>Get in touch with our team for any inquiries or support needs.</p>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+
+            <div style="margin-top: 3rem; text-align: center;">
+                <h3>Other Ways to Reach Us</h3>
+                <p>Email: info@internapp.com</p>
+                <p>Phone: +91 9945736006</p>
+                <p>Address: #208, 2nd block, 2nd floor, Dr. Rajkumar Road, RajajiNagar, Bangalore, 560010</p>
+            </div>
+        </div>
+
+        <!-- Privacy Policy -->
+        <div id="privacy" class="page">
+            <h2>InternApp Privacy Policy</h2>
+            <div class="policy-content">
+                <p>Last updated: July 2, 2025</p>
+
+               <p>This Privacy Policy describes the practices of the "INTERNAPP" mobile application ("App") operated by InternApp Charitable Trust. It explains how we collect, store, use, and protect your personal and non-personal data. By using the InternApp app or platform, you consent to this Privacy Policy.</p>
+
+<h4>1. Information You Provide</h4>
+<ul>
+    <li><strong>Mobile Number:</strong> For login, validation, and communication.</li>
+    <li><strong>Email Address:</strong> For alerts, verification, and marketing (with unsubscribe option).</li>
+    <li><strong>PAN Card & Bank Info:</strong> Used for identity and payout verification, stored securely.</li>
+</ul>
+
+<h4>2. User Consent</h4>
+<p>By registering, you grant explicit consent to use your data for improving and delivering services.</p>
+
+<h4>3. Permissions You Allow</h4>
+<ul>
+    <li>Access to Photos, Media, Files, Contacts, Phone status (if granted).</li>
+    <li>Voluntary details like location, DOB, gender, etc. may be submitted via Profile.</li>
+</ul>
+
+<h4>4. Information We Track</h4>
+<p>Device details, IMEI, IP, location, language, and cookie data are captured after consent to improve services.</p>
+
+<h4>5. Usage Data</h4>
+<p>Includes usage history, behavior analytics, SMS (for OTP only), and click patterns.</p>
+
+<h4>6. Use of Information</h4>
+<ul>
+    <li>Personalization of services, fraud prevention, and performance improvements.</li>
+    <li>Third-party services like Google Analytics may be used.</li>
+</ul>
+
+<h4>7. Sharing of Information</h4>
+<p>We do not share personal data without consent, except to fulfill services or as required by law. Aggregated non-personal data may be used for analytics and ads.</p>
+
+<h4>8. Disclosures</h4>
+<ul>
+    <li>We may disclose non-personal data to partners for analytics or marketing.</li>
+    <li>We are not responsible for data shared with third parties like social media platforms.</li>
+</ul>
+
+<h4>9. Third-Party Links</h4>
+<p>We are not responsible for external websites or apps linked from our platform. Their privacy policies apply independently.</p>
+
+<h4>10. Data Security</h4>
+<p>We use secure servers and follow strict protocols to prevent unauthorized access to your data.</p>
+
+<h4>11. Ads & Offers</h4>
+<ul>
+    <li>Third-party ad networks may use limited data for relevant advertising.</li>
+    <li>InternApp is not responsible for third-party fulfillment of offers.</li>
+</ul>
+
+<h4>12. International Users</h4>
+<p>Data may be processed in countries with different protection laws. By using the app, you consent to this.</p>
+
+<h4>13. Policy Updates</h4>
+<p>This policy is subject to change. Continued use of the app constitutes acceptance of the revised terms.</p>
+
+<h4>14. Contact Us</h4>
+<p>For concerns or queries, contact: <a href="mailto:info@internapp.in">info@internapp.in</a></p>
+            </div>
+        </div>
+
+        <!-- Terms & Conditions -->
+        <div id="terms" class="page">
+            <h2>InternApp Terms & Conditions</h2>
+            <div class="policy-content">
+                <p>Last updated: July 2, 2025</p>
+
+               <h3>Internship through InternApp</h3>
+<p>InternApp is a mediating organization that offers internship courses and assists students in finding suitable internships. The internship does not constitute an Employment Agreement or offer of employment with InternApp or any Host Company.</p>
+
+<ul>
+    <li>InternApp does not guarantee the location or business for any Internship Offer.</li>
+    <li>The search for a suitable internship will be attempted up to three times. After unsuccessful matches with three companies, no further placement will be made.</li>
+</ul>
+
+<h4>Application and Selection:</h4>
+<ul>
+    <li>Students must apply through the mobile application.</li>
+    <li>Selection is at the Organization's discretion based on academic performance, skills, experience, and other factors.</li>
+</ul>
+
+<h4>Responsibilities of Interns:</h4>
+<ul>
+    <li>Participate actively in assigned tasks and projects.</li>
+    <li>Follow InternApp’s policies and code of conduct.</li>
+    <li>Maintain confidentiality of all sensitive information.</li>
+    <li>Seek guidance from assigned supervisors when needed.</li>
+</ul>
+
+<h4>Internship Certificate:</h4>
+<p>Prime Users may receive an Internship Certificate from InternApp based on performance and active participation.</p>
+
+<h4>Nature of the Internship Course:</h4>
+<ul>
+    <li><strong>Online Component:</strong> Conducted via platforms like Google Meet for training and collaboration.</li>
+    <li><strong>Field Study and Market Visits:</strong> May include real-world exposure through physical tasks and activities.</li>
+</ul>
+
+<h4>Compensation:</h4>
+<p>Compensation is not guaranteed and will be communicated before the internship. It depends on performance and individual effort.</p>
+
+<h4>Confidentiality:</h4>
+<p>Interns must not share any confidential or proprietary information of InternApp or its partners.</p>
+
+<h4>Liability:</h4>
+<p>InternApp is not liable for any injuries, accidents, or damages during the internship.</p>
+
+<h4>Feedback and Evaluation:</h4>
+<p>Interns may be required to provide feedback to help improve the program.</p>
+
+<h4>Internship Placement:</h4>
+<p>Placement is dependent on academic requirements and must be notified in advance. Refusal is not allowed after placement.</p>
+
+<h4>Placement Timeframe:</h4>
+<p>No guarantees are made about placement timelines due to factors like company availability, visa processing, etc. Any timeframe shared is indicative only.</p>
+
+<h4>Modification of Opportunities:</h4>
+<p>InternApp may modify or suspend internship offers, commission rates, or tasks. Changes will be announced via the app.</p>
+
+<h4>Termination and Suspension:</h4>
+<p>InternApp can suspend or terminate user accounts if terms are violated or prohibited activities are detected.</p>
+
+            </div>
+        </div>
+
+        <!-- Refund Policy -->
+        <div id="refund" class="page">
+            <h2>Intern App Refund-cancellation Policy</h2>
+            <div class="policy-content">
+              
+<p><strong>Last Updated on 2nd july 2025</strong></p>
+
+
+
+
+<h4>1. Internship Through InternApp</h4>
+<p>Fees or charges associated with internship programs are non-refundable once paid.</p>
+
+
+<h4>2. General</h4>
+<p>InternApp does not offer refunds for services, commissions, fees, donations, scholarships, or products once they have been provided or acquired. All transactions are considered final.</p>
+
+<p><strong>For questions or concerns, contact:</strong> <a href="mailto:info@internapp.in">info@internapp.in</a></p>
+
+<p><em>Please note: This Refund Policy is subject to change. Users are encouraged to check back periodically for updates.</em></p>
+            </div>
+        </div>
+
+        <!-- Shipping Policy -->
+        <div id="shipping" class="page">
+            <h2>InternApp Return Policy</h2>
+            <div class="policy-content">
+                <p>Last updated: July 2, 2025</p>
+
+               <h3>Return & Refund Policy</h3>
+
+<h4>1. Eligibility for Returns:</h4>
+<ul>
+    <li>Items must be unused, in their original packaging, and in the same condition as when received.</li>
+    <li>Returns must be initiated within 30 days from the date of purchase.</li>
+    <li>Certain items are exempt from return, including perishable goods (e.g., food, flowers, newspapers), intimate or sanitary products, hazardous materials, and flammable liquids or gases.</li>
+</ul>
+
+<h4>2. Additional Non-Returnable Items:</h4>
+<ul>
+    <li>Gift cards</li>
+    <li>Items received as gifts</li>
+    <li>Products damaged or altered after delivery</li>
+    <li>Downloadable software products</li>
+    <li>Some health and personal care items</li>
+    <li>Donations and contributions</li>
+</ul>
+
+<h4>3. Return Process:</h4>
+<ul>
+    <li>Contact our supporter services at <a href="info@internapp.in">info@internapp.in</a> to initiate the return.</li>
+    <li>Provide transaction ID and reason for return.</li>
+    <li>Our team will guide you through the return steps.</li>
+    <li>Receipt or proof of purchase is required.</li>
+    <li>Please do not send your purchase back to the manufacturer.</li>
+</ul>
+
+<h4>4. Refund or Exchange:</h4>
+<ul>
+    <li>You will be notified once your return is processed.</li>
+    <li>Refunds may be subject to approval and review.</li>
+    <li>Some exchanges may not be eligible depending on the item type.</li>
+    <li>Partial refunds may apply if an item is not in original condition or returned after 30 days.</li>
+</ul>
+
+<h4>5. Refunds (If Applicable):</h4>
+<ul>
+    <li>Once your returned item is received and inspected, we will notify you about refund approval or rejection.</li>
+    <li>If approved, your refund will be processed to your original payment method within a few days.</li>
+</ul>
+
+<h4>6. Late or Missing Refunds (If Applicable):</h4>
+<ul>
+    <li>Check your bank account again if you haven’t received your refund.</li>
+    <li>Contact your credit card company; posting delays may occur.</li>
+    <li>Contact your bank, as refunds often take time to appear.</li>
+    <li>If you've done all this and still haven't received your refund, contact us at <a href="mailto:info@internapp.in">info@internapp.in</a>.</li>
+</ul>
+
+<p><em>Please note: This return policy is subject to change. Users are encouraged to review it periodically.</em></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Training Programs</a></li>
+                        <li><a href="#services">Internship Opportunities</a></li>
+                        <li><a href="#services">Job Placement</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                        <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showPage('privacy')">Privacy Policy</a></li>
+                        <li><a href="#" onclick="showPage('terms')">Terms & Conditions</a></li>
+                        <li><a href="#" onclick="showPage('refund')">Refund-Cancellation Policy</a></li>
+                        <li><a href="#" onclick="showPage('shipping')">Return Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:info@internapp.com">info@internapp.com</a></li>
+                        <li><a href="tel:+91 9945736006">+91 9945736006</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Intern App. All rights reserved. Empowering careers, one opportunity at a time.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
